@@ -25,7 +25,7 @@
     void animal::setNume(std::string x){
         nume=x;
     }
-    std::string animal::facCaAnimalu(){
+    virtual std::string animal::facCaAnimalu(){
         return "Sunt un animaaaaal\n";
     }
     animal::animal(){
