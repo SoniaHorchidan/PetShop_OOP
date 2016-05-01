@@ -16,7 +16,7 @@ public:
     void setPret(int x);
     std::string getNume();
     void setNume(std::string x);
-    std::string facCaAnimalu();
+    virtual std::string facCaAnimalu();
     animal();
     animal(std::string x,int pr);
     friend ostream& operator<<(ostream& out,animal x)
