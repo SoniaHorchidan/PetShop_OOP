@@ -1,5 +1,8 @@
+#pragma once
 #include "animal.h"
-
+#include <iostream>
+using namespace std;
+#include <iostream>
     int animal::getIDCusca(){
         return idCusca;
     }
@@ -25,7 +28,7 @@
     void animal::setNume(std::string x){
         nume=x;
     }
-    virtual std::string animal::facCaAnimalu(){
+    std::string animal::facCaAnimalu(){
         return "Sunt un animaaaaal\n";
     }
     animal::animal(){
