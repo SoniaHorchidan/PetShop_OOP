@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "porumbel.h"
 using namespace std;
 #include <iostream>
 
