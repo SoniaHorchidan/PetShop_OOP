@@ -1,5 +1,5 @@
 #pragma once
-#include "Reptile.h"
+#include "reptile.h"
 #include <iostream>
 using namespace std;
 #include <iostream>

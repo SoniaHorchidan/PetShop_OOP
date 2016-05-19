@@ -1,5 +1,5 @@
 #pragma once
-#include "Sarpe.h"
+#include "sarpe.h"
 #include <iostream>
 using namespace std;
 #include <iostream>
