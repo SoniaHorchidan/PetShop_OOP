@@ -1,5 +1,4 @@
 #pragma once
-#include "foca.h"
 #include <iostream>
 using namespace std;
 #include <iostream>
