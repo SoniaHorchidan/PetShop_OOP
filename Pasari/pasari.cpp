@@ -1,5 +1,5 @@
 #pragma once
-#include "Pasari.h"
+#include "pasari.h"
 #include <iostream>
 using namespace std;
 #include <iostream>

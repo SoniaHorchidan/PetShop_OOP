@@ -1,8 +1,9 @@
 #pragma once
 #include <iostream>
+#include "pasari.h"
 using namespace std;
 #include <iostream>
-#include "Pasari.h"
+
 class Porumbel:public Pasari{
 private:
     int idAnimal=2;

@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 #include <iostream>
-#include "Pasari.h"
+#include "pasari.h"
 class Corb:public Pasari{
 private:
     int idAnimal=3;
