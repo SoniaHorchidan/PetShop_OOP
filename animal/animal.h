@@ -4,10 +4,12 @@ using namespace std;
 class animal{
 private:
     int idCusca;
+    int idAnimal;
     int fericeala;
     std::string nume;
     int pret;
 public:
+    virtual int getIDAnimal();
     int getIDCusca();
     void setIDCusca(int x);
     int getFericeala();

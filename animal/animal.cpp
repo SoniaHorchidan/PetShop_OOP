@@ -3,6 +3,9 @@
 #include <iostream>
 using namespace std;
 #include <iostream>
+    int animal::getIDAnimal(){
+        return idAnimal;
+    }
     int animal::getIDCusca(){
         return idCusca;
     }
