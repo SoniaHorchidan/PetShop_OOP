@@ -14,7 +14,6 @@ class UserAttempt
         string Username;
         string Password;
     public:
-        UserAttempt(){}
         UserAttempt(string name, string pass, DataBase* X, int opt);
         string Get_Username();
         string Get_Password();
