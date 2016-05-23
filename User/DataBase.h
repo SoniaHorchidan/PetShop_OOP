@@ -13,16 +13,20 @@ class DataBase
     private:
         vector <User*> Admins;
         DataBase(){}
+        DataBase(DataBase const&);
+        void operator=(DataBase const&);
+        static DataBase* instance;
     public:
         ~DataBase();
         void Add_New_User(User* X);
         int Search_for(UserAttempt* X, int& ind);
         friend void New_User(User* X, DataBase Y);
         User* Get_User(int indice);
-        static DataBase * create()
+        static DataBase* Get_Instance()
         {
-            static DataBase obj;
-            return &obj;
+            if(instance == NULL)
+                instance = new DataBase;
+            return instance;
         }
 };
 
