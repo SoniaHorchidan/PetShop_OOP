@@ -20,7 +20,6 @@ class DataBase
         ~DataBase();
         void Add_New_User(User* X);
         int Search_for(UserAttempt* X, int& ind);
-        friend void New_User(User* X, DataBase Y);
         User* Get_User(int indice);
         static DataBase* Get_Instance()
         {
