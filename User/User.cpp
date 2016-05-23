@@ -16,6 +16,7 @@ User::User(string name, string pass, DataBase *X, int opt)
     Check(X,opt);
 }
 
+//functie care adauga un nou user in caz ca aceasta este optiunea dorita
 void User::Check(DataBase* X, int opt)
 {
     if(opt == 2)
@@ -39,7 +40,6 @@ ostream& operator<<(ostream& out, User& obj)
     out << "\nData crearii contului: " << obj.Get_Time_Created();
     out << "\nUltima oara accesat la data: " << obj.Get_Last_Accessed();
     out << "\n\nTranzactii\n";
-       //-------------tranzactii-----------------
     return out;
 }
 
