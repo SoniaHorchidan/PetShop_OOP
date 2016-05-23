@@ -15,6 +15,8 @@ UserAttempt::UserAttempt(std::string name, std::string pass, DataBase* X, int op
     Check(X,opt);
 }
 
+/*functie care verifica daca userul exista in baza de date si, in functie de rezultat si de optiunea dorita, adauga utilizatorul nou 
+in baza de date, face legatura cu un cont deja existent sau afiseaza mesaje de eroare cand este necesar*/
 void UserAttempt::Check(DataBase *X, int opt)
 {
     fstream in("database.in", ios::in | ios::out | ios::app);
